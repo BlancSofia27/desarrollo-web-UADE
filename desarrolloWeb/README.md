@@ -1,2 +1,0 @@
-# desarrolloWeb
-proyecto inmobiliaria -UADE
