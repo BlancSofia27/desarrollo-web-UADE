@@ -1,0 +1,421 @@
+body {
+  margin: 0; /* Elimina los márgenes de toda la página */
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #495a55;
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-left: 40px;
+  font-size: x-large;
+}
+
+.navbar {
+  background-color:#658178; /* Color de fondo del navbar */
+  color: white; /* Color de texto */
+  display: flex;
+  justify-content: space-between; /* Distribuye los elementos horizontalmente */
+  align-items: center; /* Centra verticalmente los elementos */
+  padding: 10px; /* Espaciado interno */
+  height: 80px;
+  width: auto;
+}
+
+.logoInmobiliaria {
+  width: 130px; /* Ancho de la imagen del logo */
+  height: auto; /* Altura automática para mantener la proporción */
+}
+
+.socialMedia {
+  width: 45px; /* Ancho de los íconos de redes sociales */
+  height: auto; /* Altura automática para mantener la proporción */
+  margin-left: 10px; /* Espacio entre los íconos */
+}
+
+.socialmedia2 {
+  margin-right: 30px;
+}
+
+.navbar2 {
+  background-color: #aef3ed; /* Color de fondo del navbar */
+  color: white; /* Color de texto */
+  display: flex;
+  align-items: center; /* Centra verticalmente los elementos */
+  padding: 10px; /* Espaciado interno */
+  height: 40px;
+  width: auto;
+  flex-direction: row;
+}
+
+.title2 {
+  color: white;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 730px;
+  width: auto;
+}
+
+.imagesNewbig {
+  background-color: #ffffff; /* Color de fondo del navbar */
+  color: white; /* Color de texto */
+  display: flex;
+  justify-content: center; /* Distribuye los elementos horizontalmente */
+  align-items: center; /* Centra verticalmente los elementos */
+  height: 500px;
+  width: auto;
+  
+}
+
+.marco {
+  height: 400px;
+  width: 400px;
+  margin-left: 6px;
+  margin-right: 6px;
+  border-radius: 3px;
+}
+
+.precio{
+  box-shadow:5px 15px 15px 5px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 35px;
+  height: 270px;
+  width: 400px;
+}
+
+.info{
+  background-color: #f1f1f1;
+  display:flex;
+  height: 400px;
+  width: auto;
+  align-items:flex-start;
+  justify-content: center;
+}
+.p{
+  height: 150px;
+  width: 460px;
+  font-size: 16px;
+  font-style: bold;
+  margin: 12px 0px 0px 0px;
+  
+  text-align: justify;
+}
+
+p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0px 0px 0px 0px;
+}
+
+.texto{
+  margin-right: 100px;
+  margin-top: 37px;
+  height: 50px;
+  width: auto;
+}
+.titleP{
+  font-size: 27px;
+  margin-bottom: 20px;
+  
+}
+
+.especificaciones{
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.subtitle{
+  font-size: 20px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.reservarButton{
+  font-size: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+  
+}
+
+.titlePrecio{
+  font-size: 25px;
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
+.estrellas{
+  margin-top: 10px;
+}
+
+.divButton{
+  justify-content: center;
+  display:flex;
+}
+
+
+.impuestos{
+  margin: 0px 0px 0px 0px;
+}
+
+.button_slide {
+color: #FFF;
+border: 2px solid #aef3ed;
+border-radius: 0px;
+padding: 18px 36px;
+display: inline-block;
+font-family: "Lucida Console", Monaco, monospace;
+font-size: 14px;
+letter-spacing: 1px;
+text-align: center;
+cursor: pointer;
+box-shadow: inset 0 0 0 0 aquamarine;
+-webkit-transition: ease-out 0.4s;
+-moz-transition: ease-out 0.4s;
+transition: ease-out 0.4s;
+background-color: rgb(49, 49, 70);
+}
+
+.slide_down:hover {
+box-shadow: inset 0 100px 0 0 #658178;
+}
+
+.contacto{
+  margin-top: 60px;
+  margin-left: 10px;
+}
+
+b{
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.footer1 {
+  background-color: #aef3ed;
+  justify-content: space-between;
+  text-align: center;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+}
+
+.contactarUl {
+  text-align: left;
+  align-items: left;
+  width: 300px;
+  margin-left: 25px;
+}
+
+.liPais {
+  width: 500px;
+  height: 20px;
+  text-align: left;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.formulario{
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: 1px;
+  margin-right: 95px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 150px;
+  background-color: #4446464a;
+  padding:10px 10px 30px 10px;
+  border-radius: 5px;
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1);
+  height: 230px;
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Centra verticalmente los elementos */
+  align-items: center; 
+}
+
+input{
+  width: 250px;
+  margin-top: 2px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center; /* Centra verticalmente los elementos */
+  align-items: center; /* Centra horizontalmente los elementos */
+  padding:0px 10px 0px 0px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centra verticalmente los elementos */
+  align-items: center; /* Centra horizontalmente los elementos */
+  padding:0px 0px 0px 40px;
+}
+
+
+.checkbox{
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+.formulario1{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 180px;
+  justify-content: center;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  justify-content: center; /* Centra verticalmente los elementos */
+  align-items: center; 
+}
+
+
+
+
+
+.input1{
+  margin-bottom: 0px 6px 0px 0px ;
+  width: auto;
+}
+
+.labelform{ 
+text-align: center;
+font-size: 25px;
+margin-top: 20px;
+}
+
+.logoInmobiliariaFooter {
+  height: 190px;
+  width: 290px;
+  padding-right: 55px;
+  padding-top: 45px;
+  font-size: 50px;
+  margin-right: 65px;
+}
+
+.button_slide {
+  color: #fff;
+  border: 2px solid #aef3ed;
+  border-radius: 0px;
+  padding: 18px 36px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 aquamarine;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+  background-color: rgb(49, 49, 70);
+  width: 200px;
+  margin-top: 20px;
+}
+
+.slide_down:hover {
+  box-shadow: inset 0 100px 0 0 #658178;
+}
+
+
+
+
+
+
+
+
+.backButton {
+  background-color: #aef3ed;
+  border-color: transparent;
+  width: 110px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.back {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  
+}
+
+.back:hover {
+  color: grey;
+}
+
+.svgback{
+  width: 20px;
+  color: white;
+}
+
+.review-section{
+  width: 500px;
+  height: 300px;
+  margin: 40px 20px 20px 40px;
+
+}
+
+
+.review-input{
+  margin: 20px 0px 0px 0px ;
+  width: 200px;
+  height: 40px;
+}
+
+.name-input{
+  margin: 20px 0px 0px 20px ;
+  width: 200px;
+  height: 20px;
+}
+
+.labelRes{
+  
+  font-size: 25px;
+}
+
+.add-review-button{
+  color: #fff;
+  border: 2px solid #aef3ed;
+  border-radius: 0px;
+  padding: 11px 20px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 aquamarine;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+  background-color: rgb(49, 49, 70);
+  width: 200px;
+  margin: 0px 0px 10px 10px;
+}
+
+.add-review-button:hover {
+  box-shadow: inset 0 100px 0 0 #658178;
+}
+
+.review {
+  width: 200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0px 0px 0px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.reviews{
+  margin: 0px 0px 0px 0px;
+}
+
